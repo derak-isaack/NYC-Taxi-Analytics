@@ -4,3 +4,4 @@ taxi_nyc2.db
 taxi_nyc3.db
 taxi_nyc4.db 
 taxi_nyc4.db.wal
+logs/
