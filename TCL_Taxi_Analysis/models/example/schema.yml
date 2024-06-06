@@ -2,10 +2,10 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
+  - name: table_rename
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: VendorID
         description: "The primary key for this table"
         data_tests:
           - unique
@@ -14,7 +14,7 @@ models:
   - name: my_second_dbt_model
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: VendorID 
         description: "The primary key for this table"
         data_tests:
           - unique
