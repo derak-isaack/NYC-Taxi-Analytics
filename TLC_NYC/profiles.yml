@@ -1,0 +1,13 @@
+TLC_NYC:
+  outputs:
+    dev:
+      type: duckdb
+      path: D:\Projects\Taxi_Analysis\taxi_nyc.db
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
