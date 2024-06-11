@@ -31,18 +31,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   TCL_Taxi_Analysis:
-    +schema: rename_tables
-    +persist_docs:
-      relation: true
-      columns: true
-
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: table
 
-snapshots:
-  TCL_Taxi_Analysis:
-    +schema: snapshots_schema
-    +my_snapshots:
-      +target_database: snapshotsdb
     
