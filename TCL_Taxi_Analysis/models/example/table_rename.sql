@@ -27,7 +27,7 @@ select
   '17' as Total_amount,
   '18' as congestion_surchage,
   '19' as airport_fee 
-from {{ ref('green_taxi') }}
+from yellow_taxi_jan
 
 
 /*
