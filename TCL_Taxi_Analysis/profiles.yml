@@ -7,7 +7,7 @@ TCL_Taxi_Analysis:
 
     prod:
       type: duckdb
-      path: D:\Projects\Taxi_Analysis\prod.duckdb
+      path: prod.duckdb
       threads: 4
 
   target: dev
