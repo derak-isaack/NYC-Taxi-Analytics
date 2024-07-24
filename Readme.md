@@ -1,8 +1,10 @@
+![New-York-Taxi](<new-york taxi.jpg>)
+
 ## <div style="padding: 35px;color:white;margin:10;font-size:200%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/7078619/pexels-photo-7078619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'><strong> NEW YORK CITY TLC TAXI DATA PIPELINE  </strong></span></b> </div> 
 
 ![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=fff&style=for-the-badge)
 ![Duckdb](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=000&style=for-the-badge)
-![sql](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=fff&style=for-the-badge)
+
 
 ### <div style="padding: 20px;color:white;margin:10;font-size:90%;text-align:left;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://w0.peakpx.com/wallpaper/957/661/HD-wallpaper-white-marble-white-stone-texture-marble-stone-background-white-stone.jpg)"><b><span style='color:black'> Project Overview</span></b> </div>
 
@@ -42,3 +44,6 @@ To initialize a `DBT project` together with `DuckDB OLAP database`, the followin
 
 * `dbt run` after defining the transformation models. Incase of any error the `logs` should be checked. 
 
+For a succesfull dbt model, the following should be printed on the terminal:
+
+![dbt-final-screenshot](<dbt screenshot.png>)
