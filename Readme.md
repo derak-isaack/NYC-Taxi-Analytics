@@ -52,4 +52,4 @@ For a succesfull dbt model, the following should be printed on the terminal:
 
 The transformation models are then visualized using `Power BI` which offers quick interactive visualization charts with the key `KPI's`. 
 
-![Dashboard](<PowerBi dashboard.png>)
+![Dashboard](<PowerBidashboard.png>)
