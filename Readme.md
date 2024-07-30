@@ -53,3 +53,9 @@ For a succesfull dbt model, the following should be printed on the terminal:
 The transformation models are then visualized using `Power BI` which offers quick interactive visualization charts with the key `KPI's`. 
 
 ![Dashboard](<PowerBidashboard.png>)
+
+### <div style="padding: 20px;color:white;margin:10;font-size:90%;text-align:left;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://w0.peakpx.com/wallpaper/957/661/HD-wallpaper-white-marble-white-stone-texture-marble-stone-background-white-stone.jpg)"><b><span style='color:black'> Prefect Integration</span></b> </div>
+
+`Prefect-dbt-flow` [library](https://github.com/datarootsio/prefect-dbt-flow) offers quick simple integration with orchestration and pipeline monitoring. 
+
+![Orchestration-prefect](prefect-flow.png)
